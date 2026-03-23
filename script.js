@@ -11,7 +11,6 @@ if (AGE<=18) {
         Price *= 0.6;
     }
 }
-
 const finalPrice = Price.toFixed(2);
 console.log(`Prezzo Finale:${finalPrice}€`);
 
