@@ -12,7 +12,7 @@ if (AGE<=18) {
     }
 }
 const finalPrice = Price.toFixed(2);
-console.log(`Prezzo Finale:${finalPrice}€`);
+console.log(`Prezzo Finale: ${finalPrice}€`);
 
 if (isNaN(AGE) || isNaN(Distance) || AGE <= 0 || Distance <= 0) {
     console.log("❌ Errore! Devi inserire numeri validi maggiori di 0.❌");}
